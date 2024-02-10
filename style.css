@@ -1,0 +1,61 @@
+.body{
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background: url(img/1707487716870.jpeg);
+  width: 100%;  
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: top;
+  position: relative;
+}
+
+#masterDiv{
+  width: 100%;  
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: top;
+  position: relative;
+}
+
+#searchButton{
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#searchButton:hover img{
+  width: 22px;
+}
+
+#searchButton img{
+  width: 20px;
+}
+
+.container{
+  backdrop-filter: blur(8px);
+}
+
+
+#transDiv{
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.trans{
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.hover:hover{
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 5px rgba(68, 53, 134, 0.342);
+}
+
